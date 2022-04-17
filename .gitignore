@@ -4,6 +4,9 @@
 /node_modules
 /.pnp
 .pnp.js
+/server/.env
+/server/.gitignore
+/server/Procfile
 
 # testing
 /coverage
