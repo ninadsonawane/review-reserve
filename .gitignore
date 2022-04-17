@@ -5,7 +5,7 @@
 /.pnp
 .pnp.js
 /server/.env
-/server/.gitignore
+/server/node_modules
 /server/Procfile
 
 # testing
