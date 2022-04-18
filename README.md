@@ -1,70 +1,276 @@
-# Getting Started with Create React App
+# REVIEW-RESERVE ⚡️ 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## A minimal social media for book readers!
 
-## Available Scripts
+<h2 align="center">
+  <img src="https://github.com/ninadsonawane/portfolio/blob/main/src/assests/review-reserve.png" alt="Review-Reserve" width="600px" />
+  <br>
+</h2>
 
-In the project directory, you can run:
+## Features
 
-### `yarn start`
+⚡️ Modern UI Design + Reveal Animations\
+⚡️ One Page Layout\
+⚡️ Styled with Material-UI ^4.12.1
+⚡️ Fully Responsive\
+⚡️ Well organized documentation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To view the demo: **[click here](<LINK HERE**)**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `yarn test`
+## Why do you need a Review-Reserve? ☝️
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Post your reviews of your favourite books!
+- Like and unlike reviews of other people!
 
-### `yarn build`
+## Getting Started 🚀
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites 📋
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [NPM](http://npmjs.com)) installed on your computer.
 
-### `yarn eject`
+```
+node@v16.4.2 or higher
+npm@7.18.1 or higher
+git@2.30.1 or higher
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Also, you can use [Yarn](https://yarnpkg.com/) instead of NPM ☝️
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+yarn@v1.22.10 or higher
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## How To Use 🔧
 
-## Learn More
+From your command line, first clone Review-Reserve:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+# Clone the repository
+$ git clone https://github.com/ninadsonawane/review-reserve
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Move into the repository
+$ cd clientm
 
-### Code Splitting
+# Remove the current origin repository
+$ git remote remove origin
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+After that, you can install the dependencies either using NPM or Yarn.
 
-### Analyzing the Bundle Size
+Using NPM: Simply run the below commands.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+# Install dependencies
+$ npm install
 
-### Making a Progressive Web App
+# Start the development server
+$ npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+ Create .env file and replace values with yours
 
-### Advanced Configuration
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+CONNECTION_URL="Mongodb Connection String"
 
-### Deployment
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Go into `review-reserve/src/api/index.js `  and  `package.json` and replace localhost
 
-### `yarn build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Using Yarn: Be aware of that you'll need to delete the `package-lock.json` file before executing the below commands.
+
+```bash
+# Install dependencies
+$ yarn
+
+# Start the development server
+$ yarn start
+```
+
+**NOTE**:
+If your run into issues installing the dependencies with NPM, use this below command:
+
+```bash
+# Install dependencies with all permissions
+$ sudo npm install --unsafe-perm=true --allow-root
+```
+
+Once your server has started, go to this url `http://localhost:1234/` to see the portfolio locally. It should look like the below screenshot.
+
+<h2 align="center">
+  <img src="https://github.com/cobidev/gatsby-simplefolio/blob/master/examples/example.png" alt="Simplefolio" width="100%">
+</h2>
+
+
+---
+
+## Deployment 📦
+
+Once you finish your setup. You need to put your website online!
+
+I highly recommend to use [Netlify](https://netlify.com) because it is super easy.
+
+
+## Technologies used 🛠️
+
+- [React](https://reactjs.org/) - A JavaScript library for building user interfaces
+- [Redux](https://redux.js.org/) - State managment
+- [Node](https://nodejs.org/en/) - Used for backend
+- [Mongodb](https://www.mongodb.com/) - Database
+- [Material-UI](https://mui.com/) - Material-UI is an open-source project that features React components that implement Google's Material Design.
+
+## Authors
+
+- **Ninad Sonawane** - [https://github.com/ninadsonawane](https://github.com/ninadsonawane)
+
+=
+
+## Acknowledgments 🎁
+
+I was motivated to create this project because I wanted to contribute on something useful for the dev community!
+
+
+# REVIEW-RESERVE ⚡️ 
+
+## A minimal social media for book readers!
+
+<h2 align="center">
+  <img src="https://github.com/ninadsonawane/portfolio/blob/main/src/assests/review-reserve.png" alt="Review-Reserve" width="600px" />
+  <br>
+</h2>
+
+## Features
+
+⚡️ Modern UI Design + Reveal Animations\
+⚡️ One Page Layout\
+⚡️ Styled with Material-UI ^4.12.1
+⚡️ Fully Responsive\
+⚡️ Well organized documentation
+
+To view the demo: **[click here](<LINK HERE**)**
+
+---
+
+## Why do you need a Review-Reserve? ☝️
+
+- Post your reviews of your favourite books!
+- Like and unlike reviews of other people!
+
+## Getting Started 🚀
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites 📋
+
+You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [NPM](http://npmjs.com)) installed on your computer.
+
+```
+node@v16.4.2 or higher
+npm@7.18.1 or higher
+git@2.30.1 or higher
+```
+
+Also, you can use [Yarn](https://yarnpkg.com/) instead of NPM ☝️
+
+```
+yarn@v1.22.10 or higher
+```
+
+---
+
+## How To Use 🔧
+
+From your command line, first clone Review-Reserve:
+
+```bash
+# Clone the repository
+$ git clone https://github.com/ninadsonawane/review-reserve
+
+# Move into the repository
+$ cd clientm
+
+# Remove the current origin repository
+$ git remote remove origin
+```
+
+After that, you can install the dependencies either using NPM or Yarn.
+
+Using NPM: Simply run the below commands.
+
+```bash
+# Install dependencies
+$ npm install
+
+# Start the development server
+$ npm start
+```
+
+ Create .env file and replace values with yours
+
+```
+
+CONNECTION_URL="Mongodb Connection String"
+
+```
+
+Go into `review-reserve/src/api/index.js `  and  `package.json` and replace localhost
+
+
+Using Yarn: Be aware of that you'll need to delete the `package-lock.json` file before executing the below commands.
+
+```bash
+# Install dependencies
+$ yarn
+
+# Start the development server
+$ yarn start
+```
+
+**NOTE**:
+If your run into issues installing the dependencies with NPM, use this below command:
+
+```bash
+# Install dependencies with all permissions
+$ sudo npm install --unsafe-perm=true --allow-root
+```
+
+Once your server has started, go to this url `http://localhost:1234/` to see the portfolio locally. It should look like the below screenshot.
+
+<h2 align="center">
+  <img src="https://github.com/cobidev/gatsby-simplefolio/blob/master/examples/example.png" alt="Simplefolio" width="100%">
+</h2>
+
+
+---
+
+## Deployment 📦
+
+Once you finish your setup. You need to put your website online!
+
+I highly recommend to use [Netlify](https://netlify.com) because it is super easy.
+
+
+## Technologies used 🛠️
+
+- [React](https://reactjs.org/) - A JavaScript library for building user interfaces
+- [Redux](https://redux.js.org/) - State managment
+- [Node](https://nodejs.org/en/) - Used for backend
+- [Mongodb](https://www.mongodb.com/) - Database
+- [Material-UI](https://mui.com/) - Material-UI is an open-source project that features React components that implement Google's Material Design.
+
+## Authors
+
+- **Ninad Sonawane** - [https://github.com/ninadsonawane](https://github.com/ninadsonawane)
+
+=
+
+## Acknowledgments 🎁
+
+I was motivated to create this project because I wanted to contribute on something useful for the dev community!
